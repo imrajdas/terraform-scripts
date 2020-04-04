@@ -28,7 +28,6 @@ variable "aws_az2" {
   description = "AWS EC2 availability zone 2"
   default     = "us-east-1b"
 }
-variable "aws_az2" {
-  description = "AWS EC2 availability zone 2"
-  default     = "us-east-1b"
+variable "desired_size" {
+  default     = "2"
 }
